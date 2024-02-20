@@ -1,0 +1,86 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --noom-bg-color: rgb(246, 244, 238);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+}
+
+.str-chat__channel {
+  flex: 1;
+  background-color: var(--noom-bg-color);
+}
+
+.str-chat__thread {
+  width: 45%;
+}
+
+.str-chat {
+  --str-chat__channel-header-background-color: var(--noom-bg-color);
+  --str-chat__channel-list-background-color: var(--noom-bg-color);
+  --str-chat__message-list-background-color: var(--noom-bg-color);
+  --str-chat__notification-list-background-color: var(--noom-bg-color);
+  --str-chat__message-input-background-color: var(--noom-bg-color);
+  --str-chat__channel-background-color: var(--noom-bg-color);
+
+
+  --str-chat__avatar-background-color: #316700;
+  --str-chat__channel-preview-active-background-color: #B4E0D8;
+  --str-chat__own-message-bubble-background-color: #C8E3B1;
+  --str-chat__message-bubble-background-color: #B4E0D8;
+  --str-chat__message-send-color: #AA3521;
+}
+
+
+.channel-list-with-search {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 400px;
+}
+
+.channel-search__input__wrapper {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background: var(--noom-bg-color);
+  padding: 8px 0;
+  gap: 4px;
+}
+
+
+.channel-search__input__icon {
+  display: flex;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+.channel-search__input__text {
+  background: none;
+  border: none;
+  color: #180202;
+  font-size: 16px;
+  outline: none;
+  flex: 1;
+}
