@@ -7,3 +7,10 @@
 5. With Ngrok, create a tunnel to the development server - `ngrok http 3000`
 6. In Stream's dashboard, update the webhook URL to the ngrok URL: `https://<ngrok-url>/api/webhook`
 7. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+This project uses [Stream](https://getstream.io/)'s battle-tested chat infrastructure. Check out our:
+
+- ⭐ [Chat API](https://getstream.io/chat/)
+- 📱 [Video API](https://getstream.io/video/)
+- 🔔 [Activity Feeds](https://getstream.io/activity-feeds/)
