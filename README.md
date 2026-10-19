@@ -1,3 +1,5 @@
+> **This repository is archived and no longer maintained.** For a current alternative, see [chat-ai-samples](https://github.com/GetStream/chat-ai-samples).
+
 ## Getting Started
 
 1. Clone the repository
